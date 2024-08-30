@@ -3,9 +3,9 @@
 def print_fibonacci(length):
     if length < 0:
         print("Length must be a positive integer.")
-        return
+    else:
     
-    fibonacci_sequence = []
+     fibonacci_sequence = []
     
     for n in range(length):
         if  n == 0:
@@ -19,4 +19,4 @@ def print_fibonacci(length):
     print(fibonacci_sequence)
 
 
-print_fibonacci(9)  
+print_fibonacci(1)  
